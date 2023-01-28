@@ -1,0 +1,527 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar-brand ,.nav-link {
+  color: rgb(255 202 202);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: white;
+}
+.navbar-nav .nav-link.hover, .navbar-nav .show>.nav-link {
+  color: white;
+}
+
+/* ////////////////////////////////login Page///////////////////// */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #ffffff;
+}
+.wrapper{
+  width: 330px;
+  padding: 2rem 0 1rem 0;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+h1{
+  font-size: 2rem;
+  color: #07001f;
+}
+p{
+  margin-bottom: 1.7rem;
+}
+form input{
+  width: 85%;
+  outline: none;
+  border: none;
+  background: #dfe9f5;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.recover{
+  text-align: right;
+  font-size: 0.8rem;
+  margin: 0.2rem 1.7rem 0 0;
+}
+.recover a{
+  text-decoration: none;
+  color: #07001f;
+}
+.loginbtn{
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 85%;
+  background: tomato;
+  color: #fff;
+  cursor: pointer;
+}
+.loginbtn:hover{
+  background: rgba(122, 30, 30, 0.767);
+}
+.or{
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+.icons i{
+  color: #07001f;
+  padding: 00.8rem 1.5rem;
+  border-radius: 10px;
+  margin-left: .9rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 2px solid #dfe9f5;
+}
+.icons i:hover{
+  color: #fff !important;
+  background: #07001f;
+  transition: 1s;
+}
+.icons i:first-child{
+  color: green;
+}
+.icons i:last-child{
+  color: blue;
+}
+.not-member{
+  font-size: 0.8rem;
+  margin-top: 1.4rem;
+}
+.not-member a{
+  color: tomato;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+/* ////////////////////////////Home///////////////////// */
+
+.main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height:90vh;
+  flex-direction: column;
+  position: relative;
+}
+.Form{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    width: 80%;
+    min-height:40%;
+}
+
+.Bookbtn{
+  padding: 4px 8px;
+  border-radius: 7px;
+  background-color: rgb(235, 136, 136);
+}
+
+.Bookbtn:hover{
+  background-color: rgb(252, 105, 105);
+  padding: 4px 10px;
+  scale: 1.1;
+  color: white;
+}
+
+.Bookbtn2{
+  padding: 6px 20px;
+  border-radius: 7px;
+  background-color: rgb(59, 228, 237);
+  color: rgb(0, 0, 0);
+  border: none;
+}
+
+.Bookbtn2:hover{
+  padding: 6px 20px;
+  scale: 1.1;
+  background-color: rgb(108, 239, 108);
+  color: rgb(0, 0, 0);
+  border: none;
+}
+
+.logo:hover{
+  text-decoration: none;
+}
+
+.Navlink{
+  text-decoration: none;
+}
+.Navlink:hover{
+  text-decoration: none;
+  background-color: rgb(243, 95, 95);
+}
+.Navlink:active{
+  text-decoration: none;
+  background-color: rgb(149, 253, 154);
+}
+
+
+/* ////////////////////////////Bookspage///////////////////////// */
+
+
+.mainnav_contain{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.shopcart{
+  color: rgb(112, 229, 131);
+}
+.Product_cart_icon{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction:row;
+}
+.shopingpricetext{
+  color: #EB6440;
+  font-size: x-large;
+}
+
+.Product_body{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Product_cart{
+  background-color: #ffffff;
+  margin: 40px 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  position:relative;
+  min-height: 450px;
+}
+
+.Product_img_tab>img{
+  mix-blend-mode:multiply;
+}
+
+.product_price_tab{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
+.Bookbtndiv{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Buynowbtn,.infobtn{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  width: 40%;
+  border-radius: 0;
+
+}
+.Buynowbtn:hover{
+  background-color: rgb(255, 125, 95);
+  color: #030303;
+}
+.infobtn:hover{
+  background-color: rgb(194, 254, 223);
+  color: #030303;
+}
+.cart_text_title{
+  font-size:25px;
+  font-weight: bolder;
+}
+.cart_text_author{
+  font-size:15px;
+  font-weight: bolder;
+}
+
+.loveimg_cart{
+  font-size:x-large;
+  color: #EB6440;
+  text-shadow: 0 0 3px #efa9a9, 0 0 5px #fe7478;
+}
+
+.loveimg_cart:hover{
+  color: #ff0a0a;
+  outline: #dcba0e;
+  scale: 1.1;
+}
+
+/* ////////////////////////////Book loading /////////////// */
+
+.Booksloading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+}
+
+.loader{
+  height: 180px;
+  width: 180px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.square-item{
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  border: 3px solid #ff1d5e;
+  margin: 0 auto;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.square-item:nth-child(1){
+  animation-name: load-one;
+  animation-delay: 0.5s;
+}
+.square-item:nth-child(2){
+  animation-name: load-two;
+  animation-delay: 0s;
+  border: 3px solid #77b005;
+}
+.square-item:nth-child(3){
+  animation-name: load-three;
+  animation-delay: 0.5s;
+  border: 3px solid #0329e5;
+}
+.square-item:nth-child(4){
+  animation-name: load-four;
+  animation-delay: 0s;
+  border: 3px solid #fff;
+}
+
+@keyframes load-one {
+  50%{ transform: translate(150%, 150%) scale(2);}
+}
+@keyframes load-two {
+  50%{ transform: translate(-150%, 150%) scale(2);}
+}
+@keyframes load-three {
+  50%{ transform: translate(-150%, -150%) scale(2);}
+}
+@keyframes load-four {
+  50%{ transform: translate(150%, -150%) scale(2);}
+}
+
+
+/* ////////////////////////SingleBook////////////////////////////// */
+
+.BookCardcontainer{
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BookCardcontainerBody{
+  min-height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BookSIngleImg{
+  height: 80%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.BookimgBid{
+  height: 60vh;
+}
+
+.Bookimgsin{
+  height: 100%;
+  object-fit: cover;
+}
+
+.SingleBookdetails{
+  min-height: 80vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.SingleBookdetailstext{
+  height: 10%;
+  color: #030303;
+  margin: 4px;
+  font-size: 30px;
+}
+.BookQuantityone{
+  background-color: #3df079;
+  color: white;
+  margin: 10px;
+  height: 35px;
+  width: 100px;
+}
+
+.BookQuantityone:hover{
+  background-color: #1fff6a;
+}
+
+.BookQuantitytwo{
+  background-color: #030303;
+  color: white;
+  margin: 8px;
+  height: 35px;
+  width: 40px;
+}
+
+.BookQuantitythree{
+  background-color: rgb(243, 148, 164);
+  color: white;
+  margin: 10px;
+  height: 35px;
+  width: 100px;
+}
+
+.BookQuantitythree:hover{
+  background-color: rgb(233, 80, 105);
+}
+
+.shoppingbtn1{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  width: 150px;
+  height: 35px;
+  background-color: rgb(244, 113, 113);
+  color: white;
+  margin: 8px;
+
+}
+.shoppingbtn1:hover{
+  background-color: rgb(254, 254, 132);
+  color: #030303;
+}
+
+.backbtn{
+  background-color: #030303;
+  color: white;
+  margin: 8px;
+  height: 35px;
+  width: 150px;
+}
+
+.backbtn:hover{
+  background-color: rgb(125, 125, 255);
+}
+
+/* ///////////////////Book Cart/////////////////// */
+
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }
+
+
+  /* /////////////////////////AddBook///////////////////// */
+
+  .altBody{
+  position: absolute;
+  height: 94vh ;
+  width: 100%;
+  }
+
+  .altsection{
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(250, 225, 230);
+    position: fixed;
+    top: 10%;
+    left: 38%;
+  }
+
+  .alttext{
+    font-size: 30px;
+    color: crimson;
+  }
+
+  .altButton{
+    margin: 8px;
+    background-color: rgb(255, 45, 87);
+    height: 49px;
+    width: 150px;
+    border-radius: 32px;
+    color: white;
+    border:2px  crimson;
+}
+
+/* ///////////cart Product //////////////////// */
+
+.imgcart{
+     width: '72px';
+     height: '72px'
+}
+
+.thumbnail {
+  margin-right: 20px;
+}
+
+.booktablebody{
+  width: 100% !important;
+}
